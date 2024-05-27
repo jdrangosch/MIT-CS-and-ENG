@@ -20,7 +20,7 @@ The repository follows the structure of the MIT CSE curriculum, the full curricu
 
 Here is an overview of the courses:
 
-2024 - 6.0001 Introduction to Computer Science and Programming in Python - [6.100L Fall 2022](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/)
+2024 - [6.0001 Introduction to Computer Science and Programming in Python](https://github.com/jdrangosch/MIT-CS-and-ENG/tree/main/6.0001%20Introduction%20to%20Computer%20Science%20and%20Programming%20in%20Python) - [OCW Link 6.100L Fall 2022](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/)
 
 Each course directory will be updated as progresses is made through the curriculum.
 
