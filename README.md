@@ -17,3 +17,20 @@ The repository is organized into directories corresponding to each course in the
 The repository follows the structure of the MIT CSE curriculum. Here is an overview of the courses:
 
 6.0001 Introduction to Computer Science and Programming in Python
+
+Each course directory will be updated as progresses is made through the curriculum.
+
+## How to Use This Repository
+
+Feel free to explore the contents of each directory to gain insights into the coursework and projects. Here are some guidelines on how to navigate the repository:
+
+Lorem impsum
+
+## Contributions
+
+This repository is primarily for personal use, but if you have suggestions or resources that might be helpful, feel free to open an issue or submit a pull request. Collaboration and knowledge sharing are always welcome!
+
+## Contact
+
+For any questions or discussions related to this repository, please contact Julian Drangosch at juliandrangosch@ggmail.com.
+
