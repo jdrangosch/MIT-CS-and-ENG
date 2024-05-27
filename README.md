@@ -14,3 +14,6 @@ The repository is organized into directories corresponding to each course in the
 
 ## Course List
 
+The repository follows the structure of the MIT CSE curriculum. Here is an overview of the courses:
+
+6.0001 Introduction to Computer Science and Programming in Python
