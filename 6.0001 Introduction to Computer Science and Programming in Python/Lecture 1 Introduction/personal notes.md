@@ -43,3 +43,27 @@ Interpreted vs. Compiled: Interpreted languages execute code directly, offering 
 Python, a general-purpose, interpreted language, to teach programming concepts. Python is user-friendly, provides helpful runtime feedback, and has a wealth of libraries that extend its functionality. Despite its benefits, Python's weak static semantic checking makes it less suitable for high-reliability or long-term, large-scale projects.
 
 Python's simplicity and extensive libraries make it an excellent language for beginners and for solving a wide array of problems
+
+## Chapter 2.2
+
+### Objects, Expressions, and Numerical Types
+
+Objects are the core elements manipulated by Python programs. Each object has a type that defines its behavior. Types can be scalar (indivisible) or non-scalar (having internal structure). Scalar types include:
+
+int: Represents integers (e.g., -3, 5).
+
+float: Represents real numbers with a decimal point (e.g., 3.0, -28.72). They can also be expressed in scientific notation (e.g., 1.6E3 for 1600.0).
+
+bool: Represents Boolean values True and False.
+
+None: Represents a single value None.
+
+Expressions combine objects and operators to produce new objects. For instance, 3 + 2 evaluates to 5 (an int), and 3.0 + 2.0 evaluates to 5.0 (a float). The == operator tests equality, and != tests inequality.
+
+The type function can determine an object's type.
+
+### Variables and Assignment
+
+Variables associate names with objects.
+
+In Python, a variable is just a name bound to an object. An assignment statement associates the name on the left with the object denoted by the expression on the right.
