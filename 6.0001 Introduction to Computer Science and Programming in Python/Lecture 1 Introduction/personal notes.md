@@ -2,7 +2,7 @@
 
 ## Chapter 1
 
-### Summary of Computer Science Concepts
+### Introduction
 
 A computer fundamentally performs two functions: it calculates and stores the results of those calculations, executing billions of instructions per second and possessing significant storage capabilities. Historically, human computation was limited by manual calculation speeds and record-keeping abilities. Modern computers, however, have vastly expanded the scope of solvable problems, although some remain beyond current computational capabilities.
 
@@ -29,3 +29,17 @@ Programs can fail in several ways: crashing, running indefinitely, or producing 
 ### Practical Consideration
 
 Writing effective algorithms requires precision, as computers execute instructions literally. This precision is crucial for developing reliable software that performs as intended.
+
+## Chapter 2.1
+
+Programming languages, though varied, can be compared along several dimensions:
+
+Low-Level vs. High-Level: Low-level languages involve machine-level instructions (e.g., moving data bits), while high-level languages use more abstract operations (e.g., displaying a menu).
+
+General vs. Domain-Specific: General-purpose languages apply to a broad range of tasks, whereas domain-specific languages, like SQL, are tailored to specific applications, such as database queries.
+
+Interpreted vs. Compiled: Interpreted languages execute code directly, offering easier debugging, while compiled languages convert code to machine-level instructions, resulting in faster execution and less memory usage.
+
+Python, a general-purpose, interpreted language, to teach programming concepts. Python is user-friendly, provides helpful runtime feedback, and has a wealth of libraries that extend its functionality. Despite its benefits, Python's weak static semantic checking makes it less suitable for high-reliability or long-term, large-scale projects.
+
+Python's simplicity and extensive libraries make it an excellent language for beginners and for solving a wide array of problems
