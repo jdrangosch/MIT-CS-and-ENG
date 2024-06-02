@@ -75,9 +75,9 @@ c = "musketeers"
 #     run run run run run
 
 # your code here
-
-
-
+verb = input("Type a verb: ")
+print("I can " + verb + " better than you")
+print((verb + ' ')*5)
 #########################################
 
 # #Example 3 - Newton's Method for cube root
