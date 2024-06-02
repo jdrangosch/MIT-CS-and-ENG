@@ -58,9 +58,11 @@ y = 2
 #Buggy example
 y = x
 x = y
+
 #Fix it here!
-
-
+z = y
+y = x
+x = z
 
 ###############################
 ###### COMMENTING LINES #######
