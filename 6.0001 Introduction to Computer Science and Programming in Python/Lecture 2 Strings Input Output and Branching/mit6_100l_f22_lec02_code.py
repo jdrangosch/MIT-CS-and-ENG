@@ -116,7 +116,9 @@ print((verb + ' ')*5)
 
 # your code here
 
-    
+secret_number = 182
+user_guess = int(input("Enter an integer number from 1-1000: "))
+print(secret_number == user_guess)
 
 #########################################
 
@@ -136,11 +138,11 @@ print((verb + ' ')*5)
 
 ############## YOU TRY IT ###############
 # # Buggy, fix it!
-# x = int(input("Enter a number for x: "))
-# y = int(input("Enter a different number for y: "))
-# if x == y:
-#     print(x,"is the same as",y)
-# print("These are equal!")
+ x = int(input("Enter a number for x: "))
+ y = int(input("Enter a different number for y: "))
+ if x == y:
+     print(x,"is the same as",y)
+     print("These are equal!")
 
 #########################################
 
