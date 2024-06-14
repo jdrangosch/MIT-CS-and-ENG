@@ -194,6 +194,7 @@ elif user_input < new_secret_number:
     print("Guess too low")
 else:
     print("Same as the secret")
+
 #############################################
 
 #########################################
@@ -207,19 +208,18 @@ else:
 #########################################
 # Practice 1: What is the value of s1 and s2?
 s1 = "a" + "b"
-
+# s1 = 'ab' is a string
 d = "hi"
 e = " ana"
 s2 = d + 2*e
-
+# s2 = 'hianaana'
 
 # Practice 2: What are the substrings of s?
 s = "ABC d3f ghi"
-s[0:3:1]
-s[0:4]
-s[8:len(s):3]
-s[2::-1]
-
+s[0:3:1] #'ABC'
+s[0:4] #'ABC '
+s[8:len(s):3] #'g'
+s[2::-1] #CBA
 
 # Practice 3: What does this print?
 # Note that a += b is the same as a = a + b
