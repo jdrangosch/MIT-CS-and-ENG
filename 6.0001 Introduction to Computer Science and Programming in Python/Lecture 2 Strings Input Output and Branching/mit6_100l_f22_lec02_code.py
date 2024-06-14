@@ -138,11 +138,11 @@ print(secret_number == user_guess)
 
 ############## YOU TRY IT ###############
 # # Buggy, fix it!
- x = int(input("Enter a number for x: "))
- y = int(input("Enter a different number for y: "))
- if x == y:
-     print(x,"is the same as",y)
-     print("These are equal!")
+x = int(input("Enter a number for x: "))
+y = int(input("Enter a different number for y: "))
+if x == y:
+    print(x,"is the same as",y)
+    print("These are equal!")
 
 #########################################
 
@@ -186,6 +186,14 @@ print(secret_number == user_guess)
 
 # your code here
 
+new_secret_number = 100
+user_input = int(input("Enter an interger number: "))
+if user_input > new_secret_number:
+    print("Guess too high")
+elif user_input < new_secret_number:
+    print("Guess too low")
+else:
+    print("Same as the secret")
 #############################################
 
 #########################################
