@@ -50,12 +50,15 @@
 # Expand this code to show a sad face when the user entered 
 # the while loop more than 2 times. Hint: use a counter
 ###################
-# where = input("Go left or right? ")
-# while where == "right":
-#     where = input("Go left or right? ")
-# print("You got out!")
 
-
+counter = 0
+where = input("Go left or right? ")
+while where == "right":
+    counter += 1
+    if counter > 2 :
+        print(':_(')
+    where = input("Go left or right? ")
+print("You got out!")
 
 #############
 ## EXAMPLE: counter
@@ -132,12 +135,13 @@
 # Fix this code to use variables start and end in the 
 # range, to get the total sum between and including those values. 
 
-# mysum = 0
-# start = 3
-# end = 5
-# for i in range(start, end):
-#     mysum += i
-# print(mysum)
+mysum = 0
+start = 3
+end = 5
+for i in range(start, end + 1):
+    print(f'i = {i}')
+    mysum += i
+print(mysum)
 
 ###########################################
 
@@ -153,6 +157,10 @@
 # For ex. if x = 15, it prints 5, 10, and 15. 
 # For ex. if x = 14, it prints 5 and 10.
 
+x = 15
+for i in range(1, x+1):
+    if i % 5 == 0 : 
+        print(f'{i} is divisible by 5')
 
 # Practice 2:
 # Declare a variable n that stores an int. Print the sum of all digits 
@@ -160,8 +168,11 @@
 # when you divide n by 10.
 # For ex. If x = 1234, print 10
  
-
-
+n = 1234
+total = 0
+for number in str(n) :
+    total += int(number)
+print(total)
 
 #########################################################
 ##################### END AT HOME ###########################
