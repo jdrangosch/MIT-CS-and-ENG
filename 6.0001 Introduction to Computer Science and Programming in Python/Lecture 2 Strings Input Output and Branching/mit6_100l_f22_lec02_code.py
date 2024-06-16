@@ -236,7 +236,19 @@ s[2::-1] #CBA
 #     answer += "\ny is smaller"
 # print(answer)
 
+# Answer 1 y = 2, both strings have diff lenght
+# condition does not meet because 11 < 2 is False
+# so we enter the condition 'else' and we add the string '\ny is smaller'
+# to answer and we print it. \n is a line break so it prints:
+#
+# y is smaller
+
+# Answer 2, y = 12, first condition is met since 2 == 2,
+# we enter second condition, y != 0 is True and the reminder of dividing
+# 11 % 2 == 1 is also True, we add to aanswer 'x / y is' '11/12'
+# Answer '\n
 # 
+# y is smaller x / y is 0.9166666666666666
 
 # Practice 4: Uncomment the code below and:
 # What does it print when a = 6 and b = "6"
@@ -250,7 +262,12 @@ s[2::-1] #CBA
 #     print("int and str conversion")
 # else: 
 #     print("interesting")
-    
+
+# int conversion
+# interesting
+# interesting
+# interesting    
+
 #########################################
 ############### END AT HOME ##########################
 #########################################
