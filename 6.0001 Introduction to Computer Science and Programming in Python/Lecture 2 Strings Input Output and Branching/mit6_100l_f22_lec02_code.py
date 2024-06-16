@@ -236,7 +236,7 @@ s[2::-1] #CBA
 #     answer += "\ny is smaller"
 # print(answer)
 
-
+# 
 
 # Practice 4: Uncomment the code below and:
 # What does it print when a = 6 and b = "6"
