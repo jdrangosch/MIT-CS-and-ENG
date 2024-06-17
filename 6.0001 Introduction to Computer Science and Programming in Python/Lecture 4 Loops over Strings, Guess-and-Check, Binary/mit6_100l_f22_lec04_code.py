@@ -76,13 +76,15 @@ for i in range(5):
 # s = "abca" Then your code prints 3. 
 
 # your code here
-s = 'abca'
 
+s = 'abca'
+unique_letters = ''
+for char in s:
+    if char not in unique_letters :
+        unique_letters += char
+print(len(unique_letters))
 
 ##############################################
-
-
-
 
 ####################
 ## EXAMPLE: guessing perfect square roots
@@ -126,6 +128,9 @@ s = 'abca'
 # your code here
 secret = 4
 
+for i in range(10):
+    if i == secret :
+        print(f'secret found, secret number is {secret}')
 
 ################################################
 
@@ -137,7 +142,11 @@ secret = 4
 
 # your code here   
 secret = 4
-
+for i in range(10):
+    if i == secret :
+        print(f'secret found, secret number is {secret}')
+    else:
+        print(f'secret numer not found')
     
 ####################################################
 
@@ -296,15 +305,21 @@ secret = 4
 ####################################################
 ##################### AT HOME ######################
 ######################################################
+
 # Write code that counts how many unique common characters there are between 
 # two strings. For example below, the common characters count is 8: 
-# text1 = "may the fourth be with you"
-# text2 = "revenge of the sixth"
+text1 = "may the fourth be with you"
+text2 = "revenge of the sixth"
 # Hint, start to write your code with a smaller example, then test it on the above text.
 
 # text1 = "abc"
 # text2 = "cde"
 # your code here
+common_char = ''
+for char in text1 :
+    if (char in text2) and (char not in common_char):
+        common_char += char
+print(f'common characters are {common_char} and there are {len(common_char)} different')
 
 ####################################################
 ##################### END AT HOME ######################
