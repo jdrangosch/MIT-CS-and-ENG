@@ -16,9 +16,12 @@
 # range(-4,6,2)
 # range(5,6)
 
-#for i in range(5):
+count = 0
+for i in range(5):
     # your code here
-
+    if i % 2 == 0 :
+        count += 1
+        print(f'{i} is even and count = {count}')
 
 #############################################
 
