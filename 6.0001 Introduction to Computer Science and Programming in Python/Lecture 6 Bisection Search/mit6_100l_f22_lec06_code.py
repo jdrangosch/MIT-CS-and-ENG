@@ -94,17 +94,22 @@
 ################# YOU TRY IT #######################
 # Write code to use bisection search to find the cube 
 # root of positive cubes to within some epsilon
-
+count = 0
 cube = 27
 epsilon = 0.01
 low = 0
 high = cube
+guess = (low + high) / 2
 
-# your code here
+while abs(guess**3 - cube) >= epsilon :
+    if guess**3 > cube:
+        high = guess
+    else:
+        low = guess
+    guess = (low + high) / 2
+    count += 1
 
-
-#####################################################
-
+print(f"Count is {count} and guess is {guess}")
 
 ######## Cube root for all cubes ############
 # cube = -27
