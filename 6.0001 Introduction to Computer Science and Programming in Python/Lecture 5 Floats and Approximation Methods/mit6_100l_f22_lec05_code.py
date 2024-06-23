@@ -117,13 +117,32 @@
 #     x += 0.022 # increment
 #     print(x)      # check this value for floating point error
 
+"""
+Answer: the 5 iteration of the loop has a rounding error.
+These are:
+0.022
+0.044
+0.066
+0.088
+0.10999999999999999
+"""
 
 # 2. Automate the code from the previous problem. Suppose you are 
 # just given an increment value. Write code that automatically
 # determines how many times you can add increment to itself 
 # until you start to get a floating point error.
 
-# your code here
+"""
+from previous experiment, count = 1000, len of the str(x) is between 16-19
+"""
+
+x = 0
+count = 20    
+for i in range(count):
+    x += 0.022
+    if len(str(x)) > 16: 
+        print(f"the count is {i} and the number is {x}")
+        break
 
 #################################################
 #################################################
